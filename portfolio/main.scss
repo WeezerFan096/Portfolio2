@@ -20,3 +20,9 @@ width: 100%;
         width: 20rem;
         height: 20rem;
     }
+.redFlag {
+    background: url("./pics/docPics/redFlag.png") no-repeat;
+    display: inline-block;
+    }.redFlag:hover {
+        background: url("./pics/docPics/greenFlag.png") no-repeat;
+    }
