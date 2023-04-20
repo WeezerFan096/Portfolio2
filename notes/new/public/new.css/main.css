@@ -1,3 +1,26 @@
-.url {
-  cursor: url(./pics/docPics/cursor.png), auto;
+#mainTable {
+  width: 100%;
+}
+
+.redFlag {
+  justify-content: center;
+}
+
+.th {
+  width: 20rem;
+  height: 20rem;
+}
+
+#title {
+  grid-area: 1/1/2/3;
+  background-color: green;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.td {
+  width: 20rem;
+  height: 20rem;
 }/*# sourceMappingURL=main.css.map */
