@@ -22,6 +22,7 @@ $box-spacing: 20px;
 #throttleBox{
     width: 90px;
 }
+<<<<<<< Updated upstream
 .dashboard__box {
     width: $box-size;
     height: $box-size;
@@ -38,12 +39,24 @@ $box-spacing: 20px;
     align-items: center;
     justify-content: center;
   }
+=======
+body{
+    background-color: #8bf937;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.redFlag{
+    justify-content: center;
+    transform: scale(3);
+>>>>>>> Stashed changes
 }
 body {
     background-color: black;
     margin: 0;
     padding: 0;
 }
+<<<<<<< Updated upstream
 .earthPic{
     width: 400px;
     height: 400px;
@@ -75,3 +88,14 @@ body {
     border-radius: 50%;
   }
   
+=======
+
+.td{
+        width: 20rem;
+        height: 20rem;
+    }
+
+.title{
+    text-align: center;
+}
+>>>>>>> Stashed changes
