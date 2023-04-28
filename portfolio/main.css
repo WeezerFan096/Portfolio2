@@ -71,7 +71,6 @@ body {
 .earthPic {
   width: 400px;
   height: 400px;
-  position: absolute;
 }
 
 #selfDestructBox .dashboard__button {
@@ -98,15 +97,6 @@ body {
   border-radius: 50%;
 }
 
-.hide {
-  transform: translateY(-100%);
-  transition: transform 0.3s ease;
-}
-
-.show {
-  transform: translateY(0);
-}
-
 #logo {
   height: 120px;
 }
@@ -119,10 +109,37 @@ body {
 
 #header p {
   margin-right: 10px;
-  color: black;
+  color: white;
 }
 
 .headerItem {
   text-decoration: none;
   color: white;
+}
+
+.earth {
+  align-content: center;
+}
+
+@media only screen and (max-width: 767px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .headerItem {
+    margin-top: 10px;
+  }
+  .earthPic {
+    width: 200px;
+    height: 200px;
+  }
+  .dashboard__boxes {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .dashboard__box {
+    width: 150px;
+    height: 150px;
+  }
 }/*# sourceMappingURL=main.css.map */
