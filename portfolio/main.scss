@@ -1,3 +1,4 @@
+@import "header";
 $dashboard-height: 400px;
 $dashboard-padding: 20px;
 $box-size: 300px;
@@ -19,11 +20,10 @@ $box-spacing: 20px;
     justify-content: space-between;
     margin-top: $box-spacing;
   }
-#throttleBox{
+  #throttleBox {
     width: 90px;
-}
-<<<<<<< Updated upstream
-.dashboard__box {
+  }
+  .dashboard__box {
     width: $box-size;
     height: $box-size;
     background-color: #555;
@@ -39,63 +39,67 @@ $box-spacing: 20px;
     align-items: center;
     justify-content: center;
   }
-=======
-body{
-    background-color: #8bf937;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.redFlag{
-    justify-content: center;
-    transform: scale(3);
->>>>>>> Stashed changes
 }
 body {
-    background-color: black;
-    margin: 0;
-    padding: 0;
+  background-color: black;
+  margin: 0;
+  padding: 0;
 }
-<<<<<<< Updated upstream
-.earthPic{
-    width: 400px;
-    height: 400px;
-    position: absolute;
+.earthPic {
+  width: 400px;
+  height: 400px;
+  position: absolute;
 }
 #selfDestructBox {
-    .dashboard__button {
-      width: 200px;
-      height: 200px;
-      background-color: red;
-      border-radius: 50%;
-      align-items: center;
-      justify-content: center;
-      transition: all 0.3s;
-
-      &:hover {
-        background-color: rgb(187, 4, 4);
-      }
-    }
-  }
-  .stars {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 5px;
-    height: 5px;
-    position: absolute;
-    background-color: #fff;
+  .dashboard__button {
+    width: 200px;
+    height: 200px;
+    background-color: red;
     border-radius: 50%;
-  }
-  
-=======
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
 
-.td{
-        width: 20rem;
-        height: 20rem;
+    &:hover {
+      background-color: rgb(187, 4, 4);
     }
-
-.title{
-    text-align: center;
+  }
 }
->>>>>>> Stashed changes
+.stars {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.hide {
+  transform: translateY(-100%);
+  transition: transform 0.3s ease;
+}
+
+.show {
+  transform: translateY(0);
+}
+
+#logo {
+  height: 120px;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#header p {
+  margin-right: 10px;
+  color: black;
+}
+
+.headerItem {
+  text-decoration: none;
+  color: white;
+}

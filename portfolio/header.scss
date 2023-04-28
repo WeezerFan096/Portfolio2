@@ -1,0 +1,32 @@
+//header
+$header-height: 60px; 
+$header-padding: 10px; 
+.hide {
+  transform: translateY(-100%);
+  transition: transform 0.3s ease;
+}
+.show {
+  transform: translateY(0);
+}
+#logo{
+  height: 120px;
+}
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  p {
+    margin-right: 10px; 
+    color: black;
+  }
+}
+.headerItem{
+  text-decoration: none;
+  color: black;
+}
+//	<header id="header" class="hide">
+// <img src="./pics/logo.png" id="logo" alt="logo">
+// <a class="headerItem" id="home" href="./main.html">Home</a>
+// <a class="headerItem" href="./bio.html" id="bio">Bio</a>
+// <a class="headerItem" id="resume">Resume</a>
+// </header>

@@ -1,7 +1,3 @@
-function boom(){
-    alert("boom!")
-    console.log("boom!")
-}
 let pastPos = window.pageYOffset;
 
 window.onscroll = function() {

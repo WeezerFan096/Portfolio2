@@ -1,4 +1,31 @@
-@import "header";
+.hide {
+  transform: translateY(-100%);
+  transition: transform 0.3s ease;
+}
+
+.show {
+  transform: translateY(0);
+}
+
+#logo {
+  height: 120px;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#header p {
+  margin-right: 10px;
+  color: black;
+}
+
+.headerItem {
+  text-decoration: none;
+  color: black;
+}
+
 body {
   background-color: rgb(87, 85, 85);
 }
@@ -34,6 +61,7 @@ body {
   box-sizing: border-box;
   text-align: center;
 }
+
 body {
   background-color: grey;
 }
@@ -54,4 +82,4 @@ body {
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
-}
+}/*# sourceMappingURL=bio.css.map */
