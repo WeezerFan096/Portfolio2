@@ -1,13 +1,7 @@
 //header
 $header-height: 60px; 
 $header-padding: 10px; 
-.hide {
-  transform: translateY(-100%);
-  transition: transform 0.3s ease;
-}
-.show {
-  transform: translateY(0);
-}
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
 #logo{
   height: 120px;
 }
@@ -16,7 +10,8 @@ $header-padding: 10px;
   align-items: center;
   justify-content: space-around;
   p {
-    margin-right: 10px; 
+    margin-right: 10px;
+    font-family: 'Kanit', sans-serif;
     color: black;
   }
 }

@@ -95,30 +95,3 @@ body {
 .earth{
   align-content: center;
 }
-@media only screen and (max-width: 767px) {
-
-  header {
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-  }
-  
-  .headerItem {
-     margin-top: 10px;
-  }
-  
-  .earthPic {
-     width: 200px;
-     height: 200px;
-  }
-  
-  .dashboard__boxes {
-     flex-wrap: wrap;
-     justify-content: center;
-  }
-  
-  .dashboard__box {
-     width: 150px;
-     height: 150px;
-  }
-}
