@@ -17,4 +17,13 @@
 .headerItem {
   text-decoration: none;
   color: rgb(255, 255, 255);
-}/*# sourceMappingURL=header.css.map */
+}
+
+#header {
+  background-color: #737373;
+  height: 8rem;
+}
+
+.logo {
+  background-color: #737373;
+}/*# sourceMappingURL=home.css.map */

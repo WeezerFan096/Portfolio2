@@ -1,4 +1,4 @@
-@import "header";
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
 $dashboard-height: 400px;
 $dashboard-padding: 20px;
 $box-size: 300px;
@@ -26,15 +26,15 @@ $box-spacing: 20px;
   .dashboard__box {
     width: $box-size;
     height: $box-size;
-    background-color: #555;
+    background-color: black;
     display: flex;
     align-items: flex-end;
     justify-content: center;
   }
   .dashboard__box1 {
-    width: $box-size;
-    height: $box-size;
-    background-color: #555;
+    width: 10rem;
+    height: 9.5rem;
+    background-color: black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -51,11 +51,12 @@ body {
 }
 #selfDestructBox {
   .dashboard__button {
-    width: 200px;
-    height: 200px;
+    width: 7rem;
+    height: 7rem;
     background-color: red;
     border-radius: 50%;
     align-items: center;
+    text-decoration: none;
     justify-content: center;
     transition: all 0.3s;
 
@@ -64,15 +65,8 @@ body {
     }
   }
 }
-.stars {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 5px;
-  height: 5px;
-  position: absolute;
-  background-color: #fff;
-  border-radius: 50%;
+.dashboard__button{
+  text-decoration: none;
 }
 #logo {
   height: 120px;
@@ -95,3 +89,63 @@ body {
 .earth{
   align-content: center;
 }
+$header-height: 60px;
+$header-padding: 10px;
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
+
+#logo {
+  height: 120px;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #333;
+
+  p {
+    margin-right: 10px;
+    font-family: 'Kanit', sans-serif;
+    color: rgb(255, 255, 255);
+  }
+}
+
+.headerItem {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.radarPic{
+  height: 19rem;
+}
+#radarBox{
+  align-content: space-between;
+}
+#alien{
+  height: 19rem;
+}
+
+.slider {
+  input[type=range][orient=vertical] {
+    writing-mode: bt-lr;
+    -webkit-appearance: slider-vertical;
+    width: 6rem;
+    height: 100%;
+    padding:  5px;
+  }
+}
+.slider:hover {
+  opacity: 1;
+  background-color: rgb(18, 17, 17);
+}
+.buttons{
+  display: flex;
+  flex-direction: column;
+}
+
+.headerItem{
+    margin-right: 10px;
+    font-family: 'Kanit', sans-serif;
+    color: black;
+    font-size: 3rem;
+    font-weight: bold;
+  }
