@@ -1,12 +1,5 @@
-.hide {
-  transform: translateY(-100%);
-  transition: transform 0.3s ease;
-}
-
-.show {
-  transform: translateY(0);
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap");
 #logo {
   height: 120px;
 }
@@ -18,68 +11,99 @@
 }
 #header p {
   margin-right: 10px;
-  color: black;
+  font-family: "Kanit", sans-serif;
+  color: rgb(255, 255, 255);
 }
 
 .headerItem {
   text-decoration: none;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 body {
-  background-color: rgb(87, 85, 85);
+  background-color: #333;
 }
 
 #myFace {
   background-color: #737373;
-  width: 300px;
-  height: 450px;
+  width: 17rem;
+  height: 26rem;
   display: flex;
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
+  position: fixed;
+  top: 10rem;
+  left: 10rem;
+}
+
+#myFace2 {
+  background-color: #737373;
+  width: 17rem;
+  height: 26rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  position: fixed;
+  top: 10rem;
+  left: 30rem;
+}
+
+#spaceFlick {
+  height: 25rem;
+  bottom: 16rem;
+  right: 10rem;
 }
 
 #hobbies {
   background-color: #737373;
-  width: 900px;
-  height: 300px;
+  width: 60rem;
+  height: 12rem;
   display: flex;
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
   text-align: center;
+  position: fixed;
+  bottom: 1rem;
+  left: 2rem;
 }
 
 #edu {
   background-color: #737373;
-  width: 700px;
-  height: 300px;
+  width: 30rem;
+  height: 12rem;
   display: flex;
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
   text-align: center;
+  position: fixed;
+  bottom: 1rem;
+  left: 63rem;
 }
 
-body {
-  background-color: grey;
+.cliffFlick {
+  width: 15rem;
+  height: 24rem;
+  background-color: #737373;
+  top: 6rem;
+  left: 30rem;
 }
 
-.dashboard {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  justify-items: center;
-  align-items: center;
-  height: 100vh;
+#header {
+  background-color: #737373;
+  height: 8rem;
+  width: 80rem;
+  margin: 0rem;
 }
 
-.dashboard__box {
-  width: 300px;
-  height: 300px;
-  background-color: #333;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-sizing: border-box;
+.dashboardBox {
+  font-family: "Kanit", sans-serif;
+}
+
+a {
+  font-size: 3rem;
+  font-family: "Kanit", sans-serif;
 }/*# sourceMappingURL=bio.css.map */
