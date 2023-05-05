@@ -40,6 +40,9 @@ $box-spacing: 20px;
     justify-content: center;
   }
 }
+.smallPic{
+  width: 18rem;
+}
 body {
   background-color: black;
   margin: 0;
@@ -89,8 +92,6 @@ body {
 .earth{
   align-content: center;
 }
-$header-height: 60px;
-$header-padding: 10px;
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
 
 #logo {
@@ -148,3 +149,16 @@ $header-padding: 10px;
     font-size: 3rem;
     font-weight: bold;
   }
+.words{
+  left: 40rem;
+  bottom: 19rem;
+  width: fit-content;
+  position: relative;
+  color: white;
+  z-index: 6;
+}
+.smallPic {
+  width: 18rem;
+  top: 7rem;
+  position: absolute;
+}

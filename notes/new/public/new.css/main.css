@@ -36,6 +36,10 @@
   justify-content: center;
 }
 
+.smallPic {
+  width: 18rem;
+}
+
 body {
   background-color: black;
   margin: 0;
@@ -145,4 +149,19 @@ body {
   color: black;
   font-size: 3rem;
   font-weight: bold;
+}
+
+.words {
+  left: 40rem;
+  bottom: 19rem;
+  width: fit-content;
+  position: relative;
+  color: white;
+  z-index: 6;
+}
+
+.smallPic {
+  width: 18rem;
+  top: 7rem;
+  position: absolute;
 }/*# sourceMappingURL=main.css.map */
