@@ -1,9 +1,8 @@
-@import "header";
-
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
+@import url(./header.css);
 body {
   background-color: #333;
 }
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
 #myFace {
   background-color: #737373;
   width: 17rem;
@@ -29,9 +28,10 @@ body {
   left: 30rem;
 }
 #spaceFlick {
+  position: fixed;
   height: 25rem;
-  bottom: 16rem;
-  right: 10rem;
+  bottom: 15.3rem;
+  left: 50rem;
 }
 #hobbies {
   background-color: #737373;
@@ -46,7 +46,6 @@ body {
   bottom: 1rem;
   left: 2rem;
 }
-
 #edu {
   background-color: #737373;
   width: 30rem;
@@ -60,24 +59,39 @@ body {
   bottom: 1rem;
   left: 63rem;
 }
-.cliffFlick{
+.cliffFlick {
   width: 15rem;
   height: 24rem;
   background-color: #737373;
   top: 6rem;
   left: 30rem;
 }
-#header{
+#header {
   background-color: #737373;
   height: 8rem;
-  width: 80rem;
-  margin: 0rem;
-  
+  width: 100%;
 }
-.dashboardBox{
-  font-family: 'Kanit', sans-serif;
+.dashboardBox {
+  font-family: "Kanit", sans-serif;
 }
-a{
+a {
   font-size: 3rem;
-  font-family: 'Kanit', sans-serif;
+  font-family: "Kanit", sans-serif;
+}
+#logo {
+  height: 120px;
+}
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#header p {
+  margin-right: 10px;
+  font-family: "Kanit", sans-serif;
+  color: rgb(255, 255, 255);
+}
+.headerItem {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
 }

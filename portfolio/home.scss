@@ -1,9 +1,26 @@
-@import "header";
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
+
+#logo {
+    height: 120px;
+}
+
 #header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     background-color: #737373;
     height: 8rem;
+    width: 100%;
+    margin: 0rem;
 
+    p {
+        font-size: 3rem;
+        font-family: "Kanit", sans-serif;
+        color: rgb(255, 255, 255);
+    }
 }
-.logo{
-    background-color: #737373;
+
+.headerItem {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
 }
