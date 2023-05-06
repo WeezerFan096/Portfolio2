@@ -21,7 +21,7 @@ body {
   margin: 0rem;
 }
 #header p {
-  font-size: 4rem;
+  font-size: 3rem;
   font-family: "Kanit", sans-serif;
   color: rgb(255, 255, 255);
 }
@@ -31,4 +31,70 @@ body {
   font-family: "Kanit", sans-serif;
   color: rgb(255, 255, 255);
   font-size: 3rem;
+}
+
+.resumePic {
+  vertical-align: middle;
+  position: sticky;
+  height: 20rem;
+  left: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.descBox {
+  background-color: grey;
+  top: 10rem;
+  left: 50rem;
+  position: fixed;
+  width: 20rem;
+  height: 20rem;
+}
+
+.descBox2 {
+  background-color: #737373;
+  top: 11rem;
+  left: 51rem;
+  position: fixed;
+  width: 18rem;
+  height: 18rem;
+}
+
+.resPicDiv {
+  background-color: grey;
+  width: 25rem;
+  height: 37rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  position: fixed;
+  top: 10rem;
+  left: 10rem;
+}
+
+.resumePic {
+  vertical-align: middle;
+  position: sticky;
+  height: 35rem;
+  left: 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.readout {
+  background-color: grey;
+  width: 20rem;
+  height: 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  position: fixed;
+  top: 32rem;
+  left: 50rem;
 }/*# sourceMappingURL=resume.css.map */
