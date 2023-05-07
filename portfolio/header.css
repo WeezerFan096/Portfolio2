@@ -1,47 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap");
 #logo {
-	height: 120px;
+  height: 120px;
 }
+
 #header {
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
-	background-color: #737373;
-	height: 8rem;
-	width: 100%;
-	margin: 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 #header p {
-	margin-right: 10px;
-	font-family: "Kanit", sans-serif;
-	color: #fff;
-}
-.headerItem {
-	text-decoration: none;
-	color: #fff;
-}
-/* 
-@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap");
-#logo {
-	height: 120px;
+  margin-right: 10px;
+  font-family: "Kanit", sans-serif;
+  color: rgb(255, 255, 255);
 }
 
-#header {
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
-	background-color: #737373;
-	height: 8rem;
-	width: 100%;
-	margin: 0rem;
-
-	p{
-		margin-right: 10px;
-		font-family: "Kanit", sans-serif;
-		color: rgb(255, 255, 255);
-	}
-}
 .headerItem {
-	text-decoration: none;
-	color: rgb(255, 255, 255);
-} */
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}/*# sourceMappingURL=header.css.map */

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap");
 $dashboard-height: 400px;
 $dashboard-padding: 20px;
 $box-size: 300px;
@@ -40,7 +40,7 @@ $box-spacing: 20px;
     justify-content: center;
   }
 }
-.smallPic{
+.smallPic {
   width: 18rem;
 }
 body {
@@ -68,7 +68,7 @@ body {
     }
   }
 }
-.dashboard__button{
+.dashboard__button {
   text-decoration: none;
 }
 #logo {
@@ -89,10 +89,10 @@ body {
   text-decoration: none;
   color: white;
 }
-.earth{
+.earth {
   align-content: center;
 }
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap");
 
 #logo {
   height: 120px;
@@ -106,7 +106,7 @@ body {
 
   p {
     margin-right: 10px;
-    font-family: 'Kanit', sans-serif;
+    font-family: "Kanit", sans-serif;
     color: rgb(255, 255, 255);
   }
 }
@@ -115,33 +115,37 @@ body {
   text-decoration: none;
   color: rgb(255, 255, 255);
 }
-.radarPic{
-  height: 19rem;
+.radarPic {
+  height: 12rem;
 }
-#radarBox{
+#radarBox {
   align-content: space-between;
 }
-#alien{
+#alien {
   height: 19rem;
 }
 
 .slider {
-  input[type=range][orient=vertical] {
+  input[type="range"][orient="vertical"] {
     writing-mode: bt-lr;
     -webkit-appearance: slider-vertical;
     width: 6rem;
-    height: 100%;
+    align-content: space-around;
+    background-color: rgb(18, 17, 17);
+    height: 90%;
   }
+}
+.slider {
+  background-color: black;
 }
 .slider:hover {
   opacity: 1;
-  background-color: rgb(18, 17, 17);
 }
-.buttons{
+.buttons {
   display: flex;
   flex-direction: column;
 }
-.words{
+.words {
   left: 40rem;
   bottom: 19rem;
   width: fit-content;
@@ -154,7 +158,7 @@ body {
   top: 7rem;
   position: absolute;
 }
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap");
 
 #logo {
   height: 120px;

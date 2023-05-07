@@ -33,14 +33,18 @@
 				</div>
 				<div id="projectBox" class="dashboard__box"><img class="smallPic" src="./pics/nixon.PNG" alt="an image of my project" /></div>
 				<div class="buttons">
-					<a href="./boom.html" class="dashboard__button"
-						><div id="selfDestructBox" class="dashboard__box1"><button class="dashboard__button">Self Destruct</button></div></a
-					>
-					<div id="throttleDisplay" class="dashboard__box1">throttle</div>
-				</div>
-				<div id="throttleBox" class="dashboard__box slider" id="slider">
-					<input type="range" orient="vertical" />
-				</div>
+					<a href="./boom.html" class="dashboard__button">
+						<div id="selfDestructBox" class="dashboard__box1">
+							<button class="dashboard__button">Self Destruct</button>
+						</div>
+					</a>
+					<div id="throttleDisplay" class="dashboard__box1">
+						<p id="sliderValue">0%</p>
+					 </div>
+				  </div>
+					 <div id="throttleBox" class="slider">
+						<input type="range" orient="vertical" id="slider" onchange="updateSliderValue()" />
+					 </div>
 			</div>
 		</div>
 	</body>
@@ -50,5 +54,5 @@
 		integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
 		crossorigin="anonymous"
 	></script>
-	<script src="./main.js"></script>
+	<script src="./gal.js"></script>
 </html>

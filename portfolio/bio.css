@@ -1,25 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap");
-#logo {
-  height: 120px;
-}
-
-#header {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-#header p {
-  margin-right: 10px;
-  font-family: "Kanit", sans-serif;
-  color: rgb(255, 255, 255);
-}
-
-.headerItem {
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-}
-
+@import url(./header.css);
 body {
   background-color: #333;
 }
@@ -51,9 +31,10 @@ body {
 }
 
 #spaceFlick {
+  position: fixed;
   height: 25rem;
-  bottom: 16rem;
-  right: 10rem;
+  bottom: 23rem;
+  left: 50rem;
 }
 
 #hobbies {
@@ -66,7 +47,7 @@ body {
   box-sizing: border-box;
   text-align: center;
   position: fixed;
-  bottom: 1rem;
+  bottom: 3rem;
   left: 2rem;
 }
 
@@ -80,7 +61,7 @@ body {
   box-sizing: border-box;
   text-align: center;
   position: fixed;
-  bottom: 1rem;
+  bottom: 3rem;
   left: 63rem;
 }
 
@@ -95,8 +76,7 @@ body {
 #header {
   background-color: #737373;
   height: 8rem;
-  width: 80rem;
-  margin: 0rem;
+  width: 100%;
 }
 
 .dashboardBox {
@@ -106,4 +86,25 @@ body {
 a {
   font-size: 3rem;
   font-family: "Kanit", sans-serif;
+}
+
+#logo {
+  height: 120px;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#header p {
+  margin-right: 10px;
+  font-family: "Kanit", sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+.headerItem {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
 }/*# sourceMappingURL=bio.css.map */
