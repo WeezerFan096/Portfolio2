@@ -12,37 +12,37 @@
 		integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
 		crossorigin="anonymous"
 	/>
-	<link rel="stylesheet" href="../notes/new/public/new.css/main.css" />
+	<link rel="stylesheet" href="../css/main.css" />
 	<body>
 		<header id="header">
-			<a class="headerItem" id="home" href="./gallery.html">Gallery</a>
-			<a class="headerItem" href="./bio.html" id="bio">Bio</a>
-			<a class="headerItem" href="./resume.html" id="resume">Resume</a>
-			<a href="./home.html"><img src="./pics/logo.png" id="logo" alt="logo" /></a>
+			<a class="headerItem" id="home" href="../html/gallery.html">Gallery</a>
+			<a class="headerItem" href="../html/bio.html" id="bio">Bio</a>
+			<a class="headerItem" id="resume" href="../html/resume.html">Resume</a>
+			<a href="./home.html"><img src="../pics/logo.png" id="logo" alt="logo" /></a>
 		</header>
 		<div class="earth">
-			<img class="earthPic" src="./pics/earth.png" alt="a picture of the planet earth" />
+			<img class="earthPic" src="../pics/earth.png" alt="a picture of the planet earth" />
 			<div class="words">Click the Github logo to explore this project!</div>
 		</div>
 		<br />
 		<div class="dashboard">
 			<div class="dashboard__boxes">
-				<div id="radarBox" class="dashboard__box"><img class="radarPic" src="./pics/nerd-emoji-nerd.gif" alt="a compleatly normal radar interface" /><br /></div>
+				<div id="radarBox" class="dashboard__box"><img class="radarPic" src="../pics/nerd-emoji-nerd.gif" alt="a compleatly normal radar interface" /><br /></div>
 				<div id="githubBox" class="dashboard__box">
-					<a href="https://github.com/tylerAllred/rock-website"> <img id="alien" src="./pics/githubLogo.png" alt="github logo" /></a>
+					<a href="https://github.com/tylerAllred/rock-website"> <img id="alien" src="../pics/githubLogo.png" alt="github logo" /></a>
 				</div>
-				<div id="projectBox" class="dashboard__box"><img class="smallPic" src="./pics/rockin.PNG" alt="an image of my project" /></div>
+				<div id="projectBox" class="dashboard__box"><img class="smallPic" src="../pics/rockin.PNG" alt="an image of my project" /></div>
 				<div class="buttons">
-					<a href="./boom.html" class="dashboard__button"
+					<a href="../html/boom.html" class="dashboard__button"
 						><div id="selfDestructBox" class="dashboard__box1"><button class="dashboard__button">Self Destruct</button></div></a
 					>
 					<div id="throttleDisplay" class="dashboard__box1">
 						<p id="sliderValue">0%</p>
-					 </div>
-				  </div>
-					 <div id="throttleBox" class="slider">
-						<input type="range" orient="vertical" id="slider" onchange="updateSliderValue()" />
-					 </div>
+					</div>
+				</div>
+				<div id="throttleBox" class="slider">
+					<input type="range" orient="vertical" id="slider" onchange="updateSliderValue()" />
+				</div>
 			</div>
 		</div>
 	</body>
@@ -52,5 +52,5 @@
 		integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
 		crossorigin="anonymous"
 	></script>
-	<script src="./gal.js"></script>
+	<script src="../js/gal.js"></script>
 </html>

@@ -3,7 +3,6 @@
 body {
   background-color: #333;
 }
-
 #myFace {
   background-color: #737373;
   width: 17rem;
@@ -16,7 +15,6 @@ body {
   top: 10rem;
   left: 10rem;
 }
-
 #myFace2 {
   background-color: #737373;
   width: 17rem;
@@ -29,28 +27,25 @@ body {
   top: 10rem;
   left: 30rem;
 }
-
 #spaceFlick {
-  position: fixed;
-  height: 25rem;
-  bottom: 23rem;
-  left: 50rem;
+    position: relative;
+      height: 25rem;
+      left: 50rem;
+      top: 2rem;
 }
-
 #hobbies {
   background-color: #737373;
-  width: 60rem;
-  height: 12rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-sizing: border-box;
-  text-align: center;
-  position: fixed;
-  bottom: 3rem;
-  left: 2rem;
+    width: 60rem;
+    height: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+    top: 2.9rem;
+    left: 2rem;
 }
-
 #edu {
   background-color: #737373;
   width: 30rem;
@@ -61,10 +56,9 @@ body {
   box-sizing: border-box;
   text-align: center;
   position: fixed;
-  bottom: 3rem;
+  bottom: 1rem;
   left: 63rem;
 }
-
 .cliffFlick {
   width: 15rem;
   height: 24rem;
@@ -72,39 +66,32 @@ body {
   top: 6rem;
   left: 30rem;
 }
-
 #header {
   background-color: #737373;
   height: 8rem;
   width: 100%;
 }
-
 .dashboardBox {
   font-family: "Kanit", sans-serif;
 }
-
 a {
   font-size: 3rem;
   font-family: "Kanit", sans-serif;
 }
-
 #logo {
   height: 120px;
 }
-
 #header {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
-
 #header p {
   margin-right: 10px;
   font-family: "Kanit", sans-serif;
   color: rgb(255, 255, 255);
 }
-
 .headerItem {
   text-decoration: none;
   color: rgb(255, 255, 255);
-}/*# sourceMappingURL=bio.css.map */
+}
