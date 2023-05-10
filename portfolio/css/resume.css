@@ -119,4 +119,18 @@ body {
   left: 50rem;
   padding-left: 2rem;
   padding-top: 2rem;
+}
+
+.skillBox {
+  background-color: grey;
+  height: 60rem;
+  width: 25rem;
+  position: fixed;
+  left: 70rem;
+  padding-left: 2rem;
+  padding-top: 2rem;
+}
+
+#myChart {
+  height: 100%;
 }/*# sourceMappingURL=resume.css.map */
