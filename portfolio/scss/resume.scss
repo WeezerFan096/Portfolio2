@@ -45,31 +45,34 @@ body {
   }
   .descBox {
     background-color: grey;
-    top: 10rem;
-    left: 50rem;
-    position: fixed;
-    width: 20rem;
-    height: 20rem;
+      top: 10rem;
+      left: 30rem;
+      position: fixed;
+      width: 20rem;
+      height: 20rem;
   }
   .descBox2 {
     background-color: #737373;
-    top: 11rem;
-    left: 51rem;
-    position: fixed;
-    width: 18rem;
-    height: 18rem;
+      top: 11rem;
+      left: 31rem;
+      padding-top: 3rem;
+      padding-left: 1rem;
+      position: fixed;
+      padding-right: 1rem;
+      width: 18rem;
+      height: 18rem;
   }
   .resPicDiv {
-    background-color: grey;
-    width: 25rem;
-    height: 37rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-sizing: border-box;
-    position: fixed;
-    top: 10rem;
-    left: 10rem;
+background-color: grey;
+  width: 25rem;
+  height: 37rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  position: fixed;
+  top: 10rem;
+  left: 2rem;
   }
   .resumePic {
     vertical-align: middle;
@@ -91,7 +94,22 @@ body {
     box-sizing: border-box;
     position: fixed;
     top: 32rem;
-    left: 50rem;
+    left: 30rem;
+    padding-left: 1rem;
     
   }
-  
+  .fuse{
+    height: 12rem;
+    padding-left: 3rem;
+  }
+  .test{
+    height: 25rem;
+  }
+  .imgs{
+    height: 60rem;
+      width: 30rem;
+      position: fixed;
+      left: 50rem;
+      padding-left: 2rem;
+      padding-top: 2rem;
+  }

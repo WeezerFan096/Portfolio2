@@ -1,24 +1,10 @@
-let temp = 30;
-var fuel = 100;
+let temp = 38;
+var fuel = 96;
 var newfuel = 0;
-window.addEventListener("load", function () {
-	var decreaseRate = 1;
-	function updateFuel() {
-		let newfuel = (fuel -= decreaseRate);
-		console.log("Fuel:", fuel);
-		if (fuel <= 50) {
-			console.log("low on feul");
-			return;
-		}
-		setTimeout(updateFuel, 1000);
-	}
-	updateFuel();
-	return newfuel;
-});
-
-var xValues = ["Fuel", "Engine Temp"];
-var yValues = [newfuel, temp];
-var barColors = ["green", "red"];
+var test = 51;
+var xValues = ["Fuel", "Engine Temp", "test"];
+var yValues = [fuel, temp, test];
+var barColors = ["green", "red", "blue"];
 
 new Chart("myChart", {
 	type: "bar",

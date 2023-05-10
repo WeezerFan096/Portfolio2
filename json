@@ -6,12 +6,12 @@
 		{
 			"format": "expanded",
 			"extensionName": ".css",
-			"savePath": "/css"
+			"savePath": "/portfolio/css"
 		},
 		{
 			"format": "compressed",
 			"extensionName": ".min.css",
-			"savePath": "/css"
+			"savePath": "/portfolio/css"
 		}
 	],
 	"liveSassCompile.settings.includeItems": [],
@@ -59,9 +59,7 @@
 	"code-runner.runInTerminal": true,
 	"prettier.tabWidth": 4,
 	"prettier.printWidth": 180,
-	"json.schemas": [
-		
-	],
+	"json.schemas": [],
 	"launch": {
 		"configurations": [],
 		"compounds": []

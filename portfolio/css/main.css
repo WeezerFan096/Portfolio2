@@ -152,7 +152,6 @@ body {
 .words {
   left: 40rem;
   bottom: 19rem;
-  width: -moz-fit-content;
   width: fit-content;
   position: relative;
   color: white;
