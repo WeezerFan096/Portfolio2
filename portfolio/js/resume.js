@@ -2,8 +2,8 @@ let temp = 38;
 var fuel = 96;
 var newfuel = 0;
 var test = 51;
-var xValues = ["Fuel", "Engine Temp", "test"];
-var yValues = [fuel, temp, test];
+var xValues = ["Fuel", "Engine Temp"];
+var yValues = [fuel, temp];
 var barColors = ["green", "red", "blue"];
 
 new Chart("myChart", {

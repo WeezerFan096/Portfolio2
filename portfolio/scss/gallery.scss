@@ -43,3 +43,15 @@ body {
 	font-family: "Kanit", sans-serif;
 	color: rgb(255, 255, 255);
 }
+
+@media only screen and (max-width: 600px) {
+	#logo{
+		display: none;
+	}
+	.header{
+		width: 100%;
+	}
+	.all{
+		width: 100%;
+	}
+}

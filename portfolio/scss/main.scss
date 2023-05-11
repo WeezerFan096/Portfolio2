@@ -117,10 +117,10 @@ body {
 }
 .radarPic {
   height: 12rem;
+    bottom: 6rem;
+    position: fixed;
 }
-#radarBox {
-  align-content: space-between;
-}
+
 #alien {
   height: 19rem;
 }

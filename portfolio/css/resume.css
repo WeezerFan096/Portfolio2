@@ -117,20 +117,88 @@ body {
   width: 30rem;
   position: fixed;
   left: 50rem;
-  padding-left: 2rem;
+  padding-left: 1rem;
   padding-top: 2rem;
+  top: 8rem;
 }
 
 .skillBox {
   background-color: grey;
-  height: 60rem;
-  width: 25rem;
+  height: 37rem;
+  width: 22rem;
   position: fixed;
   left: 70rem;
-  padding-left: 2rem;
+  top: 10rem;
+  padding-left: 4rem;
   padding-top: 2rem;
 }
 
 #myChart {
   height: 100%;
+}
+
+.space {
+  width: 14rem;
+}
+
+.newbutton {
+  text-decoration: none;
+  width: 10rem;
+  height: 10rem;
+  background-color: red;
+  border-radius: 50%;
+  align-items: center;
+  text-decoration: none;
+  justify-content: center;
+  transition: all 0.3s;
+}
+.newbutton:hover {
+  background-color: rgb(187, 4, 4);
+}
+
+.square {
+  background-color: #333;
+  width: 14rem;
+  padding-top: 2rem;
+  height: 14rem;
+  padding-left: 2rem;
+}
+
+.radar {
+  height: 10.76rem;
+}
+
+.floatbutton {
+  position: relative;
+  top: 40rem;
+  left: 85rem;
+  border-radius: 40%;
+  color: black;
+  background-color: red;
+  height: 3rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .readout {
+    display: none;
+  }
+  #logo {
+    display: none;
+  }
+  .imgs {
+    display: none;
+  }
+  .descBox {
+    display: none;
+  }
+  .resPicDiv {
+    left: 7rem;
+    height: 33rem;
+    width: 22rem;
+  }
+  .resumePic {
+    height: 38rem;
+    position: relative;
+    padding: 3rem;
+  }
 }/*# sourceMappingURL=resume.css.map */
