@@ -11,6 +11,7 @@
   height: 8rem;
   width: 100%;
   margin: 0rem;
+  z-index: 999999;
 }
 #header a {
   font-size: 3rem;
@@ -37,18 +38,53 @@ body {
   border-left: 15rem solid transparent;
   border-right: 15rem solid transparent;
   border-bottom: 30rem solid lightblue;
+  display: none;
 }
 
 .ufo {
   height: 30rem;
-  left: 28rem;
   top: 2rem;
   position: fixed;
-  z-index: 99999;
+  z-index: 9998;
+  right: -30rem;
+  max-height: 30rem;
+  overflow: hidden;
 }
 
 .text {
   margin-right: 10px;
   font-family: "Kanit", sans-serif;
-  color: rgb(255, 255, 255);
+  position: fixed;
+  z-index: 99999999;
+  color: black;
+  display: none;
+  font-weight: bolder;
+}
+
+#line1 {
+  left: 41rem;
+  top: 30rem;
+  position: fixed;
+  display: none;
+}
+
+#line2 {
+  left: 40rem;
+  top: 32rem;
+  position: fixed;
+  display: none;
+}
+
+#line3 {
+  left: 38rem;
+  top: 34rem;
+  position: fixed;
+  display: none;
+}
+
+#line4 {
+  left: 37rem;
+  top: 36rem;
+  position: fixed;
+  display: none;
 }/*# sourceMappingURL=contact.css.map */

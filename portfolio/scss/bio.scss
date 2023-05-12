@@ -1,8 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap");
 @import url(./header.css);
+
+// Sets the background color of the entire page
 body {
   background-color: #333;
 }
+
+// Styling for the first image section with id "myFace"
 #myFace {
   background-color: #737373;
   width: 17rem;
@@ -15,6 +19,8 @@ body {
   top: 10rem;
   left: 10rem;
 }
+
+// Styling for the second image section with id "myFace2"
 #myFace2 {
   background-color: #737373;
   width: 17rem;
@@ -27,38 +33,46 @@ body {
   top: 10rem;
   left: 30rem;
 }
+
+// Styling for the "spaceFlick" image
 #spaceFlick {
-    position: relative;
-      height: 25rem;
-      left: 50rem;
-      top: 2rem;
+  position: relative;
+  height: 25rem;
+  left: 50rem;
+  top: 2rem;
 }
+
+// Styling for the "hobbies" section
 #hobbies {
   background-color: #737373;
-    width: 60rem;
-    height: 12rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-sizing: border-box;
-    text-align: center;
-    position: relative;
-    top: 2.9rem;
-    left: 2rem;
+  width: 60rem;
+  height: 12rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  text-align: center;
+  position: relative;
+  top: 2.9rem;
+  left: 2rem;
 }
+
+// Styling for the "edu" section
 #edu {
   background-color: #737373;
-    width: 30rem;
-    height: 12rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-sizing: border-box;
-    text-align: center;
-    position: fixed;
-    bottom: 1.7rem;
-    left: 63rem;
+  width: 30rem;
+  height: 12rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  text-align: center;
+  position: fixed;
+  bottom: 3.9rem;
+  left: 63rem;
 }
+
+// Styling for the "cliffFlick" image
 .cliffFlick {
   width: 15rem;
   height: 24rem;
@@ -66,54 +80,71 @@ body {
   top: 6rem;
   left: 30rem;
 }
+
+// Styling for the header section
 #header {
   background-color: #737373;
   height: 8rem;
   width: 100%;
+  z-index: 99999999;
 }
+
+// Styling for elements within the dashboardBox class
 .dashboardBox {
   font-family: "Kanit", sans-serif;
 }
+
+// Styling for link tags
 a {
   font-size: 3rem;
   font-family: "Kanit", sans-serif;
 }
+
+// Styling for the logo image
 #logo {
   height: 120px;
 }
+
+// Styling for the header section
 #header {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
+
+// Styling for paragraphs within the header section
 #header p {
   margin-right: 10px;
   font-family: "Kanit", sans-serif;
   color: rgb(255, 255, 255);
 }
+
+// Styling for header items
 .headerItem {
   text-decoration: none;
   color: rgb(255, 255, 255);
 }
-.square{
-    background-color: #737373;
-      width: 13rem;
-      height: 10rem;
-      padding: 1rem;
+
+// Styling for the square container
+.square {
+  background-color: #737373;
+  width: 13rem;
+  height: 10rem;
+  padding-top: 1.5rem;
 }
 .newbutton{
+  width: 7rem;
+    height: 7rem;
+    background-color: red;
+    border-radius: 50%;
+    align-items: center;
     text-decoration: none;
-      width: 10rem;
-      font-size: 2rem;
-      height: 9rem;
-      background-color: red;
-      border-radius: 50%;
-      align-items: center;
-      text-decoration: none;
-      justify-content: center;
-      transition: all 0.3s;
-    
-        &:hover {
-          background-color: rgb(187, 4, 4);
-        }
-      }
+    font-size: 1rem;
+    top: 4rem;
+    justify-content: center;
+    transition: all 0.3s;
+  
+    &:hover {
+      background-color: rgb(187, 4, 4);
+    }
+}

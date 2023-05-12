@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
 
+/* Styling for the logo */
 #logo {
-    height: 120px;
+    height: 120px
 }
 
+/* Styling for the header */
 #header {
+    /* Flexbox properties */
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -12,61 +15,79 @@
     height: 8rem;
     width: 100%;
     margin: 0rem;
-
-    a {
-        font-size: 3rem;
-        font-family: "Kanit", sans-serif;
-        color: rgb(255, 255, 255);
-    }
 }
 
+/* Styling for link elements within the header */
+#header a {
+    font-size: 3rem;
+    font-family: "Kanit", sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+/* Styling for header items (links) */
 .headerItem {
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
-body{
+
+/* Styling for the body */
+body {
     background-image: url(../pics/feild.png);
     background-repeat: no-repeat;
     background-size: 100%;
     background-color: black;
 }
-.cow{
-    height: 10rem
+
+/* Styling for cow images */
+.cow {
+    height: 10rem;
 }
+
+/* Styling for the first cow image */
 #cow1 {
     top: 35rem;
     left: 4rem;
     position: fixed;
 }
+
+/* Styling for the second cow image */
 #cow2 {
     top: 37rem;
     left: 20rem;
     position: fixed;
 }
+
+/* Styling for the third cow image */
 #cow3 {
     top: 34rem;
     left: 32rem;
     position: fixed;
 }
-.ufo{
+
+/* Styling for the UFO image */
+.ufo {
     top: 13rem;
-        right: 10rem;
-        width: 19rem;
-        position: fixed;
+    right: 10rem;
+    width: 19rem;
+    position: fixed;
 }
-.textBox1{
+
+/* Styling for the text box 1 */
+.textBox1 {
     background-color: grey;
-        width: 40rem;
-        height: 10rem;
-        position: fixed;
-        top: 10rem;
-        left: 3rem;
-        font-size: 2rem;
-        padding: 0.5rem;
-        font-family: "Kanit", sans-serif;
+    width: 40rem;
+    height: 10rem;
+    position: fixed;
+    top: 10rem;
+    left: 3rem;
+    font-size: 2rem;
+    padding: 0.5rem;
+    font-family: "Kanit", sans-serif;
 }
-.floatText{
-color: grey;
+
+/* Styling for the floating text */
+.floatText {
+    color: grey;
     position: fixed;
     top: 25rem;
     left: 67rem;

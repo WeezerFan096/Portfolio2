@@ -1,13 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap");
+/* Styling for the body */
 body {
   background-color: #333;
 }
 
+/* Styling for the logo */
 #logo {
   height: 120px;
 }
 
+/* Styling for the header */
 #header {
+  /* Flexbox properties */
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -16,12 +20,15 @@ body {
   width: 100%;
   margin: 0rem;
 }
-#header p {
+
+/* Styling for paragraph elements within the header */
+p {
   font-size: 4rem;
   font-family: "Kanit", sans-serif;
   color: rgb(255, 255, 255);
 }
 
+/* Styling for header items (links) */
 .headerItem {
   text-decoration: none;
   font-family: "Kanit", sans-serif;
@@ -29,15 +36,18 @@ body {
   font-size: 3rem;
 }
 
+/* Styling for slides in the container */
 .mySlides {
   width: 38rem;
   padding: 0.5rem;
 }
 
+/* Styling for the container */
 .container {
   justify-content: center;
 }
 
+/* Styling for text elements */
 .text {
   justify-content: center;
   display: flex;
@@ -46,13 +56,17 @@ body {
   color: rgb(255, 255, 255);
 }
 
+/* Media query for screens with a maximum width of 600px */
 @media only screen and (max-width: 600px) {
+  /* Hide the logo */
   #logo {
     display: none;
   }
+  /* Adjust the width of the header */
   .header {
     width: 100%;
   }
+  /* Adjust the width of the container */
   .all {
     width: 100%;
   }

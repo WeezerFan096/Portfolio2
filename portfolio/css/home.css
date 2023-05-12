@@ -1,9 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap");
+/* Styling for the logo */
 #logo {
   height: 120px;
 }
 
+/* Styling for the header */
 #header {
+  /* Flexbox properties */
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -12,17 +15,21 @@
   width: 100%;
   margin: 0rem;
 }
+
+/* Styling for link elements within the header */
 #header a {
   font-size: 3rem;
   font-family: "Kanit", sans-serif;
   color: rgb(255, 255, 255);
 }
 
+/* Styling for header items (links) */
 .headerItem {
   text-decoration: none;
   color: rgb(255, 255, 255);
 }
 
+/* Styling for the body */
 body {
   background-image: url(../pics/feild.png);
   background-repeat: no-repeat;
@@ -30,28 +37,33 @@ body {
   background-color: black;
 }
 
+/* Styling for cow images */
 .cow {
   height: 10rem;
 }
 
+/* Styling for the first cow image */
 #cow1 {
   top: 35rem;
   left: 4rem;
   position: fixed;
 }
 
+/* Styling for the second cow image */
 #cow2 {
   top: 37rem;
   left: 20rem;
   position: fixed;
 }
 
+/* Styling for the third cow image */
 #cow3 {
   top: 34rem;
   left: 32rem;
   position: fixed;
 }
 
+/* Styling for the UFO image */
 .ufo {
   top: 13rem;
   right: 10rem;
@@ -59,6 +71,7 @@ body {
   position: fixed;
 }
 
+/* Styling for the text box 1 */
 .textBox1 {
   background-color: grey;
   width: 40rem;
@@ -71,6 +84,7 @@ body {
   font-family: "Kanit", sans-serif;
 }
 
+/* Styling for the floating text */
 .floatText {
   color: grey;
   position: fixed;

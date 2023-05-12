@@ -1,52 +1,102 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap");
 
+// Styling for the logo image
 #logo {
-    height: 120px;
+  height: 120px;
 }
 
+// Styling for the header section
 #header {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-color: #737373;
-    height: 8rem;
-    width: 100%;
-    margin: 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #737373;
+  height: 8rem;
+  width: 100%;
+  margin: 0rem;
+  z-index: 999999;
 
-    a {
-        font-size: 3rem;
-        font-family: "Kanit", sans-serif;
-        color: rgb(255, 255, 255);
-    }
-}
-
-.headerItem {
-    text-decoration: none;
+  // Styling for link tags within the header section
+  a {
+    font-size: 3rem;
+    font-family: "Kanit", sans-serif;
     color: rgb(255, 255, 255);
+  }
 }
-body{
-    background-image: url(../pics/spaceBruh.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+
+// Styling for header items (navigation links)
+.headerItem {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+// Sets the background image for the body
+body {
+  background-image: url(../pics/spaceBruh.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .triangleUp {
-        width: 7rem;
-            top: 20rem;
-            left: 25rem;
-            position: absolute;
-            border-left: 15rem solid transparent;
-            border-right: 15rem solid transparent;
-            border-bottom: 30rem solid lightblue;
+  width: 7rem;
+  top: 20rem;
+  left: 25rem;
+  position: absolute;
+  border-left: 15rem solid transparent;
+  border-right: 15rem solid transparent;
+  border-bottom: 30rem solid lightblue;
+  display: none;
+  
 }
-.ufo{
-    height: 30rem;
-        left: 28rem;
-        top: 2rem;
-        position: fixed;
-        z-index: 99999;
+
+.ufo {
+  height: 30rem;
+  top: 2rem;
+  position: fixed;
+  z-index: 9998;
+  right: -30rem;
+  max-height: 30rem;
+  overflow: hidden;
+  
 }
-.text{
-    margin-right: 10px;
-        font-family: "Kanit", sans-serif;
-        color: rgb(255, 255, 255);
+
+.text {
+  margin-right: 10px;
+  font-family: "Kanit", sans-serif;
+  position: fixed;
+  z-index: 99999999;
+  color: black;
+  display: none;
+  font-weight: bolder;
+}
+
+#line1 {
+  left: 41rem;
+  top: 30rem;
+  position: fixed;
+  display: none;
+  
+}
+
+#line2 {
+  left: 40rem;
+  top: 32rem;
+  position: fixed;
+  display: none;
+  
+}
+
+#line3 {
+  left: 38rem;
+  top: 34rem;
+  position: fixed;
+  display: none;
+  
+}
+
+#line4 {
+  left: 37rem;
+  top: 36rem;
+  position: fixed;
+  display: none;
+  
 }
