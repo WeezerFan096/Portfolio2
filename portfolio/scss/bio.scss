@@ -95,3 +95,25 @@ a {
   text-decoration: none;
   color: rgb(255, 255, 255);
 }
+.square{
+    background-color: #737373;
+      width: 13rem;
+      height: 10rem;
+      padding: 1rem;
+}
+.newbutton{
+    text-decoration: none;
+      width: 10rem;
+      font-size: 2rem;
+      height: 9rem;
+      background-color: red;
+      border-radius: 50%;
+      align-items: center;
+      text-decoration: none;
+      justify-content: center;
+      transition: all 0.3s;
+    
+        &:hover {
+          background-color: rgb(187, 4, 4);
+        }
+      }

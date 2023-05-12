@@ -69,4 +69,14 @@ body {
   font-size: 2rem;
   padding: 0.5rem;
   font-family: "Kanit", sans-serif;
+}
+
+.floatText {
+  color: grey;
+  position: fixed;
+  top: 25rem;
+  left: 67rem;
+  font-size: 2rem;
+  padding: 0.5rem;
+  font-family: "Kanit", sans-serif;
 }/*# sourceMappingURL=home.css.map */

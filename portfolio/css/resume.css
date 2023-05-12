@@ -176,29 +176,4 @@ body {
   color: black;
   background-color: red;
   height: 3rem;
-}
-
-@media only screen and (max-width: 600px) {
-  .readout {
-    display: none;
-  }
-  #logo {
-    display: none;
-  }
-  .imgs {
-    display: none;
-  }
-  .descBox {
-    display: none;
-  }
-  .resPicDiv {
-    left: 7rem;
-    height: 33rem;
-    width: 22rem;
-  }
-  .resumePic {
-    height: 38rem;
-    position: relative;
-    padding: 3rem;
-  }
 }/*# sourceMappingURL=resume.css.map */
