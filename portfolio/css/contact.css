@@ -33,7 +33,7 @@ body {
 .triangleUp {
   width: 7rem;
   top: 20rem;
-  left: 25rem;
+  left: 23rem;
   position: absolute;
   border-left: 15rem solid transparent;
   border-right: 15rem solid transparent;
@@ -59,32 +59,34 @@ body {
   color: black;
   display: none;
   font-weight: bolder;
+  font-size: 2rem;
 }
 
 #line1 {
-  left: 41rem;
-  top: 30rem;
+  left: 37rem;
+  top: 25rem;
   position: fixed;
   display: none;
 }
 
 #line2 {
-  left: 40rem;
-  top: 32rem;
+  left: 35rem;
+  top: 30rem;
   position: fixed;
   display: none;
 }
 
 #line3 {
-  left: 38rem;
+  left: 31rem;
   top: 34rem;
   position: fixed;
   display: none;
 }
 
 #line4 {
-  left: 37rem;
-  top: 36rem;
+  left: 29.7rem;
+  font-size: 1.9rem;
+  top: 39rem;
   position: fixed;
   display: none;
 }/*# sourceMappingURL=contact.css.map */
